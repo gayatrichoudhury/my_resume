@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+body{
+    background-color: black
+}
+
+.main-content{
+    min-width: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    
+}
+
+.left-section{
+    grid-column: span 2;
+    height: 100%;
+    background-color:darkslategrey
+}
+
+.right-section{
+    grid-column: span 5;
+    height: 100%;
+    background-color:tan
+}
+
+.left-content{
+    padding: 1rem 2rem;
+}
+
+.profile{
+     width: 100%;
+     border-bottom: 1px solid grey;
+}
+
+.profile img{
+    width: 100%;
+    border-radius: 50%;
+    
+}
+
+.name{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: cornsilk;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 1rem 0;
+}
+
+.career{
+    font-size: 0.7rem;
+    color: aquamarine;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-bottom: 1rem;
+}
+
+.main-title{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: honeydew;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 7px;
+
+}
+.contact-info ul{
+    padding: 2rem 0;
+}
+
+.contact-info ul li{
+    padding: 0.5rem 0;
+    align-items: center;
+    display: flex;
+    font-size: 11px;
+}
+
+.contact-info ul li i{
+    padding-right: 1rem;
+    font-size: 1.1rem;
+    color: aquamarine;
+}
+
+.skills-section ul{
+    padding-top: 2rem;
+}
+
+.skills-section ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 4rem o;
+}    
+
+.progress-bar{
+    width: 100%;
+    height: 0.4rem;
+    background-color:antiquewhite;
+    position: relative;
+    border-radius: 12px;
+}
+
+.progress{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    border-radius: 12px;
+    background-color:burlywood
+}
+
+.js-progress{
+    width: 30%;
+}
+
+.py-progress{
+    width: 70%;
+}
+
+.C-progress{
+    width: 50%;
+}
+
+.html-progress{
+    width: 80%;
+}
+
+.css-progress{
+    width: 70%;
+}
+
+.bs-progress{
+    width: 20%;
+}
+
+.ws-progress{
+    width: 50%;
+}
+
+.skill-title{
+    text-transform: uppercase;
+    color: aquamarine;
+    font-size: 0.8rem;
+    padding-bottom: 4px;
+    
+}
+
+.right-main-content{
+    padding: 1rem 2rem;
+}
+
+.right-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:crimson;
+    margin-bottom: 1.2rem;
+    position: relative;
+}
+
+.right-title::after{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 0.1rem;
+    border-radius: 10px;
+    background-color: mediumslateblue;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.para{
+    line-height: 1.6rem;
+    color:linen;
+    font-size: 1.1rem;
+}
+
+.about{
+    padding-bottom: 2rem;
+}
+
+.education{
+    padding-bottom: 2rem;
+}
+
+.timeline{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tl-title{
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-transform: uppercase;
+
+}
+
+.tl-title-2{
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    
+    
+
+}
+
+.tl-content{
+    border-left: 1px solid blue;
+    padding-left: 2rem;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.tl-title-2::before{
+    content: "";
+    position: absolute;
+    width:0.7rem;
+    height: 0.7rem;
+    background-color: aquamarine;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    left: 0;
+
+}
